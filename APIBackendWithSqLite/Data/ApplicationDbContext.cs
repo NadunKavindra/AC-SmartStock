@@ -41,6 +41,7 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<Product> Products { get; set; }
     public DbSet<Customer> Customers { get; set; }
+    public DbSet<Location> Locations { get; set; }
     public DbSet<Unit> Units { get; set; }
     public DbSet<UnitHistory> UnitHistories { get; set; }
 }
